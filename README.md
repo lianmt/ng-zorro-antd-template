@@ -3,8 +3,6 @@
 > 用了一下 angular，本来想搭建一个脚手架 ng-zorro-ant-template，但是一开始搭环境，就各种问题，让我失去了兴趣。初体验非常糟糕。但，还是要硬刚，搞定它。
 ​
 ### 安装运行 
-​
-
 ```
 git clone git@github.com:lianmt/ng-zorro-antd-template.git
 
@@ -13,26 +11,21 @@ cd ng-zorro-antd-template
 ng serve
 ```
 ​
-
 gitee 仓库
-
 ```git
 git@gitee.com:lianmt/ng-zorro-antd-template.git
 ```
-​
 ### 踩坑
 #### 升级 Angular 失败
 ​
 1、
 ​
-
 根据官网，安装 angular
 
 ```bash
 npm install -g @angular/cli
 ```
 ​
-
 angular/cli 是 @12.2.10，但是 angular 却不是最高版本。
 ​
 
@@ -44,7 +37,6 @@ angular/cli 是 @12.2.10，但是 angular 却不是最高版本。
 
 提示需要升级 npm 到 8.1.0。
 ​
-
 2、
 ​
 
@@ -131,10 +123,8 @@ ng 居然跑起来了，还是 angular-cli@12.2.10。
 
 安装 ng-zorro-antd，一切顺利。
 ​
-
 ### 多个仓库
 ​
-
 发现，gitee 可以直接导入 github 仓库，添加仓库时有这个选项。
 ​
 
